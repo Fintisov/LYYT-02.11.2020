@@ -1,0 +1,311 @@
+@font-face {
+    font-family: 'Code';
+    src: url('../fonts/Code-Light.woff2') format('woff2'),
+    url('../fonts/Code-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Graphie';
+    src: url('../fonts/Graphie-SemiBold.woff2') format('woff2'),
+    url('../fonts/Graphie-SemiBold.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'SF Pro Display';
+    src: url('../fonts/SFProDisplay-LightItalic.eot');
+    src: url('../fonts/SFProDisplay-LightItalic.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/SFProDisplay-LightItalic.woff2') format('woff2'),
+    url('../fonts/SFProDisplay-LightItalic.woff') format('woff'),
+    url('../fonts/SFProDisplay-LightItalic.ttf') format('truetype');
+    font-weight: 300;
+    font-style: italic;
+    font-display: swap;
+}
+
+.main-screen .main-img {
+    display: block;
+    width: 100%;
+}
+
+header {
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1;
+}
+
+nav.navbar {
+    display: flex;
+    background-color: #fff;
+    align-items: baseline;
+    padding: 15px 50px 0 50px!important;
+}
+
+.navbar-nav {
+    margin-left: 206px;
+    width: 100%;
+}
+
+.nav-item {
+    font-size: 20px;
+    color: #878787;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-family: "Graphie";
+}
+
+.navbar-nav a {
+    text-decoration: none;
+    transition: .3s;
+    border-bottom: 4px solid transparent;
+    padding-bottom: 20px;
+}
+
+.navbar-nav a:hover {
+    color: #f05a23!important;
+    border-bottom-color: #f05a23;
+    max-width: 70px;
+}
+
+.burger {
+    width: 30px;
+    height: 3px;
+    background-color: #f05a23;
+    margin: 4px 0;
+}
+
+.collapse.navbar-collapse {
+    display: flex;
+    align-items: baseline;
+}
+
+.main-screen h1 {
+    display: inline-block;
+    font-size: 120px;
+    color: #fff;
+    text-transform: uppercase;
+    top: 48%;
+    width: 100%;
+    text-align: center;
+    font-family: "Code";
+    font-weight: bold;
+}
+
+.icon {
+    bottom: 0;
+    left: 46%;
+}
+
+.icon p {
+    color: #fff;
+    font-size: 11px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-family: "Graphie";
+}
+
+.icon .icon-box {
+    padding: 18px 0px 18px 29px;
+    background-color: #f05a23;
+    color: #fff;
+    bottom: 0;
+}
+
+.our-family {
+    padding-top: 92px;
+    padding-bottom: 97px;
+}
+
+.our-family h2 {
+    margin-bottom: 86px;
+    font-family: "Graphie";
+    font-size: 26px;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.our-family img {
+    margin-bottom: 19px;
+}
+
+
+.with-us {
+    padding-top: 120px;
+    padding-bottom: 136px;
+    background-color: #1c1c1c;
+}
+
+.follow h2 {
+    font-family: "Graphie";
+    font-size: 32px;
+    color: #ffffff ;
+    text-align: center;
+}
+
+.follow p {
+    color: #777777;
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 30px;
+    /*изменить шрифт на SF Pro Display regular*/ ;
+}
+
+.follow-us {
+    text-align: center;
+    margin-bottom: 68px;
+}
+
+.follow-us a {
+    color: #ffffff;
+    text-transform: uppercase;
+    font-size: 12px;
+    background: #333333;
+    padding: 22px 90px;
+    text-decoration: none;
+    font-family: "Graphie";
+}
+
+.with-us-photo {
+    margin: 0 70px;
+    display: flex;
+}
+
+.with-us-photo-wrap {
+    margin-right: 6px;
+}
+
+.top-footer {
+    background-color: #f05a23;
+}
+
+.footer-container {
+    padding-top: 177px;
+    padding-bottom: 206px;
+}
+
+.footer-container .social h2 {
+    margin-bottom: 30px;
+    color: #fff;
+    font-size: 32px;
+    font-family: "Code";
+    font-weight: 600;
+    letter-spacing: 3px;
+    /*добавить шрифт regular*/
+}
+
+.footer-container .logo-social {
+    margin-bottom: 156px;
+}
+
+.footer-container .logo-social a {
+    margin-right: 20px;
+    text-decoration: none;
+}
+
+
+.footer-container .social p {
+    color: #fff;
+    font-size: 12px;
+    letter-spacing: 2px;
+  /*  добавить шрифт socialprolite*/
+}
+
+.footer-container .quick-info ul li {
+    list-style: none;
+    margin-bottom: 15px;
+    font-family: "Graphie";
+    text-transform: uppercase;
+}
+
+.footer-container .quick-info a {
+    color: #fff;
+    font-size: 14px;
+    text-decoration: none;
+}
+
+.footer-container .quick-info a:last-child {
+    margin-bottom: 0;
+}
+
+.footer-container .subscribe h2 {
+    font-size: 14px;
+    color: #fff;
+    margin-bottom: 30px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+.footer-container .subscribe form {
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.footer-container .subscribe .form-group {
+    display: flex;
+}
+
+.footer-container .subscribe form input {
+    width: 250px;
+    margin-right: 6px;
+    padding: 10px 18px;
+    background-color: rgba(0, 0, 0, .1);
+    color: #fff;
+    border: none;
+    outline: none;
+}
+
+.footer-container .subscribe form input::placeholder {
+    color: rgba(255, 255, 255, .5);
+}
+
+.footer-container .subscribe form button {
+    padding: 6px;
+    background-color: #fff;
+    color: #000;
+    font-weight: 600;
+}
+
+.footer-container .subscribe ul {
+    padding: 0;
+}
+
+.footer-container .subscribe ul li {
+    text-transform: uppercase;
+    list-style: none;
+    margin-bottom: 11px;
+    font-family: "Graphie";
+}
+
+.footer-container .subscribe a {
+    color: #fff;
+    font-size: 14px;
+    text-decoration: none;
+}
+
+.footer-container .subscribe a:last-child {
+    margin-bottom: 0;
+}
+
+.lower-footer {
+    padding: 28px;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+

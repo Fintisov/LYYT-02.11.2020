@@ -1,0 +1,256 @@
+@media screen and (max-width: 1980px) {
+  .main-screen h1.position-absolute {
+    font-size: 145px; }
+  .main-screen .container .icon-nav .icon {
+    left: 44%; }
+    .main-screen .container .icon-nav .icon p {
+      font-size: 18px; }
+    .main-screen .container .icon-nav .icon .icon-box {
+      padding: 30px 45px 30px 45px; } }
+@media screen and (max-width: 1440px) {
+  .main-screen h1.position-absolute {
+    font-size: 115px; }
+  .main-screen .container .icon-nav .icon {
+    left: 45.5%; }
+    .main-screen .container .icon-nav .icon p {
+      font-size: 15px;
+      margin-bottom: 12px; }
+    .main-screen .container .icon-nav .icon .icon-box {
+      display: inline-block;
+      padding: 25px 35px 25px 35px; } }
+@media screen and (max-width: 1024px) {
+  .main-screen header nav {
+    padding: 10px 50px 0 50px !important; }
+    .main-screen header nav a.navbar-brand {
+      padding-bottom: 10px; }
+      .main-screen header nav a.navbar-brand img {
+        height: 30px;
+        width: 120px; }
+    .main-screen header nav .collapse ul.navbar-nav li.nav-item a.nav-link, .main-screen header nav .navbar-collapse ul.navbar-nav li.nav-item a.nav-link {
+      padding-bottom: 10px; }
+  .main-screen h1.position-absolute {
+    font-size: 95px; }
+  .main-screen .container .icon-nav .icon {
+    left: 46%; }
+    .main-screen .container .icon-nav .icon p {
+      font-size: 9px;
+      margin-bottom: 10px; }
+    .main-screen .container .icon-nav .icon .icon-box {
+      padding: 13px 23px 13px 23px; } }
+@media screen and (max-width: 991px) {
+  .main-screen header nav a.navbar-brand {
+    padding-bottom: 15px; }
+  .main-screen header nav .navbar-collapse.collapse {
+    display: none; }
+  .main-screen header nav .navbar-collapse.collapse.show {
+    display: flex; }
+    .main-screen header nav .navbar-collapse.collapse.show ul.navbar-nav {
+      flex-direction: row;
+      margin-left: 90px;
+      margin-right: 30px; }
+      .main-screen header nav .navbar-collapse.collapse.show ul.navbar-nav li.nav-item a.nav-link {
+        padding-bottom: 0; }
+  .main-screen .container .icon-nav .icon {
+    left: 45%; } }
+@media screen and (max-width: 768px) {
+  .main-screen header nav {
+    padding: 2px 50px 2px 45px !important; }
+    .main-screen header nav a.navbar-brand {
+      padding-bottom: 10px; }
+      .main-screen header nav a.navbar-brand img {
+        height: 26px;
+        width: 115px; }
+    .main-screen header nav .navbar-collapse.collapse {
+      display: none; }
+    .main-screen header nav .navbar-collapse.collapse.show {
+      display: flex; }
+      .main-screen header nav .navbar-collapse.collapse.show ul.navbar-nav {
+        flex-direction: row;
+        margin-left: 90px;
+        margin-right: 30px; }
+        .main-screen header nav .navbar-collapse.collapse.show ul.navbar-nav li.nav-item a.nav-link {
+          padding-bottom: 0; }
+  .main-screen h1.position-absolute {
+    font-size: 70px; }
+  .main-screen .container .icon-nav .icon {
+    left: 46.5%; }
+    .main-screen .container .icon-nav .icon p {
+      font-size: 7px;
+      margin-bottom: 6px;
+      letter-spacing: 2px; }
+    .main-screen .container .icon-nav .icon .icon-box {
+      padding: 6px 15px 6px 15px; }
+
+  section.our-family {
+    padding-top: 50px;
+    padding-bottom: 50px; }
+    section.our-family .container h2 {
+      margin-bottom: 50px; }
+
+  section.with-us {
+    padding-top: 75px;
+    padding-bottom: 75px; }
+
+  footer .top-footer .footer-container {
+    padding-top: 115px;
+    padding-bottom: 115px; }
+    footer .top-footer .footer-container .social p {
+      font-size: 10px; }
+    footer .top-footer .footer-container .subscribe form .form-group input {
+      width: 185px;
+      margin-right: 10px; }
+  footer .lower-footer {
+    padding: 20px; }
+    footer .lower-footer img {
+      width: 100%; } }
+@media screen and (max-width: 540px) {
+  .main-screen header nav {
+    padding: 3px 5px 3px 20px !important; }
+    .main-screen header nav a {
+      padding: 0; }
+      .main-screen header nav a img {
+        height: 22px;
+        width: 100px; }
+    .main-screen header nav button.navbar-toggler {
+      padding: 5px 40px; }
+    .main-screen header nav .navbar-collapse.collapse.show ul.navbar-nav {
+      margin: 0; }
+  .main-screen h1.position-absolute {
+    font-size: 50px; }
+  .main-screen .container .icon-nav .icon p {
+    font-size: 6px;
+    margin-bottom: 3px;
+    letter-spacing: 1px; }
+  .main-screen .container .icon-nav .icon .icon-box {
+    padding: 3px 10px 3px 10px; }
+
+  section.with-us {
+    padding-top: 50px;
+    padding-bottom: 70px; }
+    section.with-us .container .follow h2 {
+      font-size: 28px; }
+    section.with-us .container .follow p {
+      font-size: 15px; }
+    section.with-us .container .follow .follow-us a {
+      font-size: 12px;
+      padding: 15px 70px; }
+    section.with-us .container .with-us-photo {
+      margin: 0 15px; }
+
+  footer .top-footer .footer-container {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    text-align: center; }
+    footer .top-footer .footer-container .row {
+      flex-direction: column-reverse; }
+      footer .top-footer .footer-container .row ul li a {
+        font-size: 18px; }
+      footer .top-footer .footer-container .row .social h2 {
+        margin-bottom: 10px; }
+      footer .top-footer .footer-container .row .social .logo-social {
+        margin-bottom: 30px; }
+      footer .top-footer .footer-container .row .quick-info {
+        margin-bottom: 50px; }
+        footer .top-footer .footer-container .row .quick-info ul {
+          padding: 0; }
+      footer .top-footer .footer-container .row .subscribe h2 {
+        margin-bottom: 20px;
+        letter-spacing: 4px;
+        font-size: 23px; }
+      footer .top-footer .footer-container .row .subscribe form {
+        display: inline-block; }
+        footer .top-footer .footer-container .row .subscribe form .form-group input {
+          width: 300px; }
+        footer .top-footer .footer-container .row .subscribe form .form-group button.subscribe-btn {
+          padding: 6px 30px; } }
+@media screen and (max-width: 414px) {
+  .main-screen header .container nav.navbar {
+    padding: 0 5px 3px 5px !important; }
+    .main-screen header .container nav.navbar a.navbar-brand {
+      padding-bottom: 7px; }
+      .main-screen header .container nav.navbar a.navbar-brand img {
+        height: 20px;
+        width: 90px; }
+    .main-screen header .container nav.navbar button {
+      padding: 0 25px; }
+      .main-screen header .container nav.navbar button span {
+        width: 20px; }
+  .main-screen h1.position-absolute {
+    font-size: 32px; }
+  .main-screen .container .icon-nav .icon {
+    left: 46%; }
+    .main-screen .container .icon-nav .icon p {
+      font-size: 5px;
+      margin-bottom: 2px;
+      letter-spacing: 1px; }
+    .main-screen .container .icon-nav .icon .icon-box {
+      padding: 0 7px; }
+
+  section.with-us .container .follow h2 {
+    font-size: 20px; }
+  section.with-us .container .follow p {
+    font-size: 10px; }
+  section.with-us .container .follow .follow-us a {
+    font-size: 10px;
+    padding: 10px 70px; }
+
+  footer .top-footer .footer-container .row ul li {
+    margin-bottom: 7px; }
+    footer .top-footer .footer-container .row ul li a {
+      font-size: 12px; }
+  footer .top-footer .footer-container .row .subscribe h2 {
+    font-size: 15px; }
+  footer .top-footer .footer-container .row .subscribe form .form-group input {
+    height: 35px; }
+  footer .top-footer .footer-container .row .subscribe form .form-group button.subscribe-btn {
+    font-size: 17px;
+    padding: 0 25px; } }
+@media screen and (max-width: 375px) {
+  .main-screen header .container nav.navbar a.navbar-brand {
+    padding: 0 5px 3px 5px; }
+    .main-screen header .container nav.navbar a.navbar-brand img {
+      height: 15px;
+      width: 75px; }
+  .main-screen header .container nav.navbar button {
+    padding: 3px 15px; }
+  .main-screen header .container nav.navbar .navbar-brand ul.navbar-nav li.nav-item, .main-screen header .container nav.navbar .collapse ul.navbar-nav li.nav-item, .main-screen header .container nav.navbar .show ul.navbar-nav li.nav-item {
+    font-size: 14px;
+    padding-top: 10px; }
+  .main-screen h1.position-absolute {
+    font-size: 28px; }
+  .main-screen .container .icon-nav .icon {
+    left: 45.5%; }
+
+  section.our-family {
+    padding-top: 25px; }
+    section.our-family .container h2 {
+      font-size: 21px; }
+
+  footer .top-footer .row .subscribe form .form-group input.form-control {
+    width: 250px; } }
+@media screen and (max-width: 320px) {
+  .main-screen .container .icon-nav .icon {
+    left: 44.5%; }
+
+  section.with-us .container .follow h2 {
+    font-size: 17px; }
+  section.with-us .container .follow p {
+    font-size: 11px; }
+  section.with-us .container .follow .follow-us {
+    margin-bottom: 50px; }
+    section.with-us .container .follow .follow-us a {
+      font-size: 7px; }
+  section.with-us .container .with-us-photo {
+    margin: 0; }
+
+  footer .top-footer .footer-container .row .subscribe h2 {
+    font-size: 14px; }
+  footer .top-footer .footer-container .row .subscribe form .form-group input {
+    width: 210px;
+    height: 30px; }
+  footer .top-footer .footer-container .row .subscribe form .form-group button.subscribe-btn {
+    font-size: 13px; } }
+@media screen and (max-width: 280px) {
+  footer .top-footer .footer-container .row .subscribe form .form-group input {
+    width: 177px;
+    height: 30px; } }
